@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>R: Functions to make working with spatial data easier</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="R.css">
+</head><body>
+<h1> Functions to make working with spatial data easier
+<img class="toplogo" src="../../../doc/html/logo.jpg" alt="[R logo]">
+</h1>
+<hr>
+<div align="center">
+<a href="../../../doc/html/packages.html"><img src="../../../doc/html/left.jpg" alt="[Up]" width="30" height="30" border="0"></a>
+<a href="../../../doc/html/index.html"><img src="../../../doc/html/up.jpg" alt="[Top]" width="30" height="30" border="0"></a>
+</div><h2>Documentation for package &lsquo;gissr&rsquo; version 0.4.11</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table width="100%">
+<tr><td width="25%"><a href="data_frame_to_lines.html">data_frame_to_lines</a></td>
+<td>Function for converting a data frame to a SpatialLinesDataFrame.</td></tr>
+<tr><td width="25%"><a href="data_frame_to_points.html">data_frame_to_points</a></td>
+<td>Function for converting a data frame to a SpatialPointsDataFrame.</td></tr>
+<tr><td width="25%"><a href="data_frame_to_polygons.html">data_frame_to_polygons</a></td>
+<td>Function for converting a data frame to SpatialPolygonsDataFrame.</td></tr>
+<tr><td width="25%"><a href="distance_by_haversine.html">distance_by_haversine</a></td>
+<td>Function to calculate distances between two points in metres or kilometres.</td></tr>
+<tr><td width="25%"><a href="get_sunrise.html">get_sunrise</a></td>
+<td>Function to calculate sunrise and sunset dates and times for a location.</td></tr>
+<tr><td width="25%"><a href="google_elevation.html">google_elevation</a></td>
+<td>Function to find elevation from latitude and longitude coordinate pairs using Google Maps API.</td></tr>
+<tr><td width="25%"><a href="google_geocode.html">google_geocode</a></td>
+<td>Function to find latitude and longitude pairs from an address-string using Google Maps API.</td></tr>
+<tr><td width="25%"><a href="leaflet_plot.html">leaflet_plot</a></td>
+<td>Convenience function to quickly plot geometries on a leaflet map.</td></tr>
+<tr><td width="25%"><a href="left_join_raster.html">left_join_raster</a></td>
+<td>Function for extracting values from a raster object based on points contained within a data frame.</td></tr>
+<tr><td width="25%"><a href="left_join_spatial.html">left_join_spatial</a></td>
+<td>Function for point-in-polygon tests.</td></tr>
+<tr><td width="25%"><a href="wgs84_to_osgb36.html">nztm_to_wgs84</a></td>
+<td>Functions to convert points among different projection systems.</td></tr>
+<tr><td width="25%"><a href="wgs84_to_osgb36.html">osgb36_to_wgs84</a></td>
+<td>Functions to convert points among different projection systems.</td></tr>
+<tr><td width="25%"><a href="wgs84_to_osgb36.html">os_grid_to_osgb36</a></td>
+<td>Functions to convert points among different projection systems.</td></tr>
+<tr><td width="25%"><a href="scrape_gpx.html">scrape_gpx</a></td>
+<td>Function to read gpx files as a data frame from the GPX Logger Android phone app.</td></tr>
+<tr><td width="25%"><a href="sp_area.html">sp_area</a></td>
+<td>Function to calculate areas of spatial polygons in metres-squared, kilometres-squared, or hectares.</td></tr>
+<tr><td width="25%"><a href="sp_bind.html">sp_bind</a></td>
+<td>Functions to bind spatial objects together.</td></tr>
+<tr><td width="25%"><a href="sp_bind.html">sp_bind_many</a></td>
+<td>Functions to bind spatial objects together.</td></tr>
+<tr><td width="25%"><a href="sp_buffer.html">sp_buffer</a></td>
+<td>Function to include or exclude an area of a spatial object.</td></tr>
+<tr><td width="25%"><a href="sp_centroid.html">sp_centroid</a></td>
+<td>Function to find the centroid of a spatial object.</td></tr>
+<tr><td width="25%"><a href="sp_clip.html">sp_clip</a></td>
+<td>Function to clip spatial objects by a rectangular envelope.</td></tr>
+<tr><td width="25%"><a href="sp_convex_hull.html">sp_convex_hull</a></td>
+<td>Function to create the smallest convex polygon that contains all input geometries.</td></tr>
+<tr><td width="25%"><a href="sp_create_ellipse.html">sp_create_ellipse</a></td>
+<td>Function to create a elliptical polygon from a point, usually used for filtering.</td></tr>
+<tr><td width="25%"><a href="sp_create_envelope.html">sp_create_envelope</a></td>
+<td>Function to create a rectangular polygon envelope, usually used for filtering.</td></tr>
+<tr><td width="25%"><a href="sp_demote.html">sp_demote</a></td>
+<td>Function to drop data slots in geometries.</td></tr>
+<tr><td width="25%"><a href="sp_dissolve_polygons.html">sp_dissolve_polygons</a></td>
+<td>Function to unite polygons together and create a single spatial object, _i.e._ disolve.</td></tr>
+<tr><td width="25%"><a href="sp_distance.html">sp_distance</a></td>
+<td>Function to find distances between two spatial objects in metres or kilometres.</td></tr>
+<tr><td width="25%"><a href="sp_fix.html">sp_fix</a></td>
+<td>Function to fix polygons when they have issues with validity and holes.</td></tr>
+<tr><td width="25%"><a href="sp_from_wkt.html">sp_from_wkt</a></td>
+<td>Function to parse a data frame containing WKT strings to a spatial object.</td></tr>
+<tr><td width="25%"><a href="sp_layer_info.html">sp_layer_info</a></td>
+<td>Function to return layer information within a spatial data file.</td></tr>
+<tr><td width="25%"><a href="sp_length.html">sp_length</a></td>
+<td>Function to find a spatial object's length in metres or kilometres.</td></tr>
+<tr><td width="25%"><a href="sp_list_drivers.html">sp_list_drivers</a></td>
+<td>Function to list spatial data file drivers on a system.</td></tr>
+<tr><td width="25%"><a href="sp_list_layers.html">sp_list_layers</a></td>
+<td>Function to list layers within a spatial data file.</td></tr>
+<tr><td width="25%"><a href="sp_projection.html">sp_projection</a></td>
+<td>Function to return a spatial object's projection system.</td></tr>
+<tr><td width="25%"><a href="sp_promote.html">sp_promote</a></td>
+<td>Function to add a data slot in geometries.</td></tr>
+<tr><td width="25%"><a href="sp_punch.html">sp_punch</a></td>
+<td>Function to "punch" (add/insert) a hole in a polygon.</td></tr>
+<tr><td width="25%"><a href="sp_read.html">sp_read</a></td>
+<td>Function to read spatial data files in a consistent way.</td></tr>
+<tr><td width="25%"><a href="sp_reset_feature_ids.html">sp_reset_feature_ids</a></td>
+<td>Function to reset spatial object's feature IDs.</td></tr>
+<tr><td width="25%"><a href="sp_simplify.html">sp_simplify</a></td>
+<td>Function to simplify spatial objects using the Douglas-Peuker algorithm.</td></tr>
+<tr><td width="25%"><a href="sp_from_wkt.html">sp_to_wkt</a></td>
+<td>Function to parse a data frame containing WKT strings to a spatial object.</td></tr>
+<tr><td width="25%"><a href="sp_transform.html">sp_transform</a></td>
+<td>Convenience function to transform a spatial object's projection system to WGS84 latitude and longitude.</td></tr>
+<tr><td width="25%"><a href="transform_coordinates.html">transform_coordinates</a></td>
+<td>Function to convert coordinates within a data frame.</td></tr>
+<tr><td width="25%"><a href="wgs84_to_osgb36.html">wgs84_to_nztm</a></td>
+<td>Functions to convert points among different projection systems.</td></tr>
+<tr><td width="25%"><a href="wgs84_to_osgb36.html">wgs84_to_osgb36</a></td>
+<td>Functions to convert points among different projection systems.</td></tr>
+<tr><td width="25%"><a href="write_geojson.html">write_geojson</a></td>
+<td>Functions to write GeoJSON files with usage analogous to 'write.table'.</td></tr>
+<tr><td width="25%"><a href="write_geojson.html">write_geojson_js</a></td>
+<td>Functions to write GeoJSON files with usage analogous to 'write.table'.</td></tr>
+<tr><td width="25%"><a href="write_gpx.html">write_gpx</a></td>
+<td>Function to export geometries as a GPX file.</td></tr>
+<tr><td width="25%"><a href="write_shapefile.html">write_shapefile</a></td>
+<td>Function to export geometries as shapefiles.</td></tr>
+</table>
+</body></html>
