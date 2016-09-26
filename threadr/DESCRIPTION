@@ -1,0 +1,30 @@
+Package: threadr
+Type: Package
+Title: Threading Pieces Of Analysis Together
+Version: 0.3.37
+Date: 2016-06-17
+Authors@R: person("Stuart", "Grange", email = "s.k.grange@gmail.com", 
+    role = c("cre", "aut"))
+Maintainer: Stuart K. Grange <s.k.grange@gmail.com>
+Description: A collection of utility functions threading processes together. 
+License: GPL (>= 2)
+ByteCompile: true
+Depends: stringr, lubridate, plyr, dplyr
+Imports: jsonlite, RCurl, dygraphs, XML, readxl, testthat, quantmod,
+        DBI
+Suggests: RSQLite, RMySQL, RPostgreSQL, openair
+LazyLoad: yes
+LazyData: true
+RoxygenNote: 5.0.1
+Author: Stuart Grange [cre, aut]
+Built: R 3.3.0; ; 2016-06-21 14:39:01 UTC; windows
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: threadr
+RemoteUsername: skgrange
+RemoteRef: master
+RemoteSha: 44de8b55ceb5c09a9e2d3b5fdc2703119a471ac0
+GithubRepo: threadr
+GithubUsername: skgrange
+GithubRef: master
+GithubSHA1: 44de8b55ceb5c09a9e2d3b5fdc2703119a471ac0

@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>R: Threading Pieces Of Analysis Together</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+<h1> Threading Pieces Of Analysis Together
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;threadr&rsquo; version 0.3.37</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<p style="text-align: center;">
+<a href="#A">A</a>
+<a href="#B">B</a>
+<a href="#C">C</a>
+<a href="#D">D</a>
+<a href="#E">E</a>
+<a href="#F">F</a>
+<a href="#G">G</a>
+<a href="#H">H</a>
+<a href="#I">I</a>
+<a href="#K">K</a>
+<a href="#L">L</a>
+<a href="#M">M</a>
+<a href="#N">N</a>
+<a href="#O">O</a>
+<a href="#P">P</a>
+<a href="#R">R</a>
+<a href="#S">S</a>
+<a href="#T">T</a>
+<a href="#U">U</a>
+<a href="#W">W</a>
+<a href="#Y">Y</a>
+</p>
+
+
+<h2><a name="A">-- A --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="add_row_numbers.html">add_row_numbers</a></td>
+<td>Function to add a row number variable to a data frame.</td></tr>
+<tr><td style="width: 25%;"><a href="arrange_left.html">arrange_left</a></td>
+<td>Function to arrange variables to the left of a data frame.</td></tr>
+<tr><td style="width: 25%;"><a href="as_binary.html">as_binary</a></td>
+<td>Function to convert integers to binary strings.</td></tr>
+</table>
+
+<h2><a name="B">-- B --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="miles_to_km.html">bar_to_psi</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="base_df.html">base_df</a></td>
+<td>Function to catch 'dplyr"s 'tbl_df' data frame class and convert to a standard/base data frame.</td></tr>
+</table>
+
+<h2><a name="C">-- C --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="miles_to_km.html">celsius_to_fahrenheit</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="clc.html">clc</a></td>
+<td>Function to clear the R console.</td></tr>
+<tr><td style="width: 25%;"><a href="compress_files.html">compress_files</a></td>
+<td>Function to compress files.</td></tr>
+<tr><td style="width: 25%;"><a href="create_directory.html">create_directory</a></td>
+<td>Function to create directories if they are not present.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">cubic_centimetres_to_cubic_inches</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">cubic_inches_to_cubic_centimetres</a></td>
+<td>Functions to convert unit systems.</td></tr>
+</table>
+
+<h2><a name="D">-- D --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="data_frame_to_timeseries.html">data_frame_to_timeseries</a></td>
+<td>Function to promote a data frame to a time-series object.</td></tr>
+<tr><td style="width: 25%;"><a href="date_sequence.html">date_sequence</a></td>
+<td>Function to generate a sequence of past or future dates.</td></tr>
+<tr><td style="width: 25%;"><a href="db_arrange_variables.html">db_arrange_variables</a></td>
+<td>Function to arrange variables in a data frame to match those found in a database table.</td></tr>
+<tr><td style="width: 25%;"><a href="db_clear_results.html">db_clear_results</a></td>
+<td>Function to clear results for a database connection.</td></tr>
+<tr><td style="width: 25%;"><a href="db_commit.html">db_commit</a></td>
+<td>Function to commit transactions for a database connection.</td></tr>
+<tr><td style="width: 25%;"><a href="db_connect.html">db_connect</a></td>
+<td>Function to create a database connection with a JSON configuration file.</td></tr>
+<tr><td style="width: 25%;"><a href="db_contents.html">db_contents</a></td>
+<td>Function to quickly return tables, variables, and values in a database.</td></tr>
+<tr><td style="width: 25%;"><a href="db_count_rows.html">db_count_rows</a></td>
+<td>Function to get row counts from database tables.</td></tr>
+<tr><td style="width: 25%;"><a href="db_file_size.html">db_file_size</a></td>
+<td>Function to get the file size of a SQLite database.</td></tr>
+<tr><td style="width: 25%;"><a href="db_get.html">db_get</a></td>
+<td>Function to get/fetch data from a database with a statement.</td></tr>
+<tr><td style="width: 25%;"><a href="db_head.html">db_head</a></td>
+<td>Function to get first _n_ rows of a database table.</td></tr>
+<tr><td style="width: 25%;"><a href="db_insert.html">db_insert</a></td>
+<td>Function to insert a data frame into/as a database table.</td></tr>
+<tr><td style="width: 25%;"><a href="db_list_indices.html">db_list_indices</a></td>
+<td>Function to list indices for a database tables.</td></tr>
+<tr><td style="width: 25%;"><a href="db_list_results.html">db_list_results</a></td>
+<td>Function to list results for a database connection.</td></tr>
+<tr><td style="width: 25%;"><a href="db_list_variables.html">db_list_variables</a></td>
+<td>Function to list all variables/columns/fields in a database table.</td></tr>
+<tr><td style="width: 25%;"><a href="db_vacuum.html">db_optimise</a></td>
+<td>Functions to vacuum, analyse, and optimise database tables.</td></tr>
+<tr><td style="width: 25%;"><a href="db_read_table.html">db_read_table</a></td>
+<td>Function to read an entire database table.</td></tr>
+<tr><td style="width: 25%;"><a href="db_send.html">db_send</a></td>
+<td>Function to send a statement to a database.</td></tr>
+<tr><td style="width: 25%;"><a href="db_table_names.html">db_table_names</a></td>
+<td>Function to get the names of database table and produce a data frame with zero rows.</td></tr>
+<tr><td style="width: 25%;"><a href="db_use_sql.html">db_use_sql</a></td>
+<td>Function to load SQL script and send it to a database.</td></tr>
+<tr><td style="width: 25%;"><a href="db_vacuum.html">db_vacuum</a></td>
+<td>Functions to vacuum, analyse, and optimise database tables.</td></tr>
+<tr><td style="width: 25%;"><a href="db_variables.html">db_variables</a></td>
+<td>Function to return all variable names in all tables in a SQL database.</td></tr>
+<tr><td style="width: 25%;"><a href="decimal_count.html">decimal_count</a></td>
+<td>Function to count the number of digits on the right of a decimal point ( sometimes called the mantissa).</td></tr>
+<tr><td style="width: 25%;"><a href="detect_averaging_period.html">detect_averaging_period</a></td>
+<td>Function to determine averaging period in a date vector.</td></tr>
+<tr><td style="width: 25%;"><a href="download_file.html">download_file</a></td>
+<td>Function to download many files to a directory.</td></tr>
+<tr><td style="width: 25%;"><a href="download_file.html">download_files</a></td>
+<td>Function to download many files to a directory.</td></tr>
+<tr><td style="width: 25%;"><a href="download_ftp_file.html">download_ftp_file</a></td>
+<td>Function to download files from an FTP or SFTP server.</td></tr>
+<tr><td style="width: 25%;"><a href="download_to_temporary.html">download_to_temporary</a></td>
+<td>Function to download a file to R's temporary directory.</td></tr>
+<tr><td style="width: 25%;"><a href="drop_na_columns.html">drop_na_columns</a></td>
+<td>Function to drop columns in a data frame which only contain 'NA'.</td></tr>
+<tr><td style="width: 25%;"><a href="duplicate_rows.html">duplicate_rows</a></td>
+<td>Function to return duplicated rows in a data frame.</td></tr>
+</table>
+
+<h2><a name="E">-- E --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="excel_read.html">excel_read</a></td>
+<td>Function to wrap 'readxl::read_excel' and then do some formating.</td></tr>
+<tr><td style="width: 25%;"><a href="excel_read_all.html">excel_read_all</a></td>
+<td>Function to read all sheets in a Microsoft Excel workbook.</td></tr>
+</table>
+
+<h2><a name="F">-- F --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="miles_to_km.html">fahrenheit_to_celsius</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="file_information.html">file_information</a></td>
+<td>Function to get file information.</td></tr>
+<tr><td style="width: 25%;"><a href="file_metadata.html">file_metadata</a></td>
+<td>Function to extract file metadata with 'exiftool' and store it within a data frame.</td></tr>
+<tr><td style="width: 25%;"><a href="file_size.html">file_size</a></td>
+<td>Function to get file size.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">foot_pound_to_newton_meter</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">foot_to_metre</a></td>
+<td>Functions to convert unit systems.</td></tr>
+</table>
+
+<h2><a name="G">-- G --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="miles_to_km.html">gallon_to_litre</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="gas_volume_to_mass.html">gas_mass_to_volume</a></td>
+<td>Functions to convert gas concentrations between volume- and mass-units.</td></tr>
+<tr><td style="width: 25%;"><a href="gas_volume_to_mass.html">gas_volume_to_mass</a></td>
+<td>Functions to convert gas concentrations between volume- and mass-units.</td></tr>
+<tr><td style="width: 25%;"><a href="get_exchange_rates.html">get_exchange_rates</a></td>
+<td>Function get exchange rates from Oanda.</td></tr>
+<tr><td style="width: 25%;"><a href="ggplot2_colours.html">ggplot2_colours</a></td>
+<td>Function to generate a vector of colours which emulate ggplot2's colours.</td></tr>
+<tr><td style="width: 25%;"><a href="grepl_all.html">grepl_all</a></td>
+<td>Function to apply 'grepl' across many variables in a data frame.</td></tr>
+</table>
+
+<h2><a name="H">-- H --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="miles_to_km.html">heat_index</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">hp_to_kw</a></td>
+<td>Functions to convert unit systems.</td></tr>
+</table>
+
+<h2><a name="I">-- I --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="miles_to_km.html">inch_hg_to_mb</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">inch_to_mm</a></td>
+<td>Functions to convert unit systems.</td></tr>
+</table>
+
+<h2><a name="K">-- K --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="miles_to_km.html">kg_to_pound</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">kg_to_stone</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">km_h_to_km_min</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">km_h_to_min_km</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">km_h_to_ms</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">km_to_miles</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">km_to_n_mile</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">kw_to_hp</a></td>
+<td>Functions to convert unit systems.</td></tr>
+</table>
+
+<h2><a name="L">-- L --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="miles_to_km.html">lb_to_kg</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="list_files.html">list_files</a></td>
+<td>Function to list files in a directory.</td></tr>
+<tr><td style="width: 25%;"><a href="list_files_ftp.html">list_files_ftp</a></td>
+<td>Function to list files on an FTP or SFTP server.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">litre_to_gallon</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="locf.html">locf</a></td>
+<td>Function for carrying last observation forwards.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">l_100km_to_mpg</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">l_100_km_to_km_l</a></td>
+<td>Functions to convert unit systems.</td></tr>
+</table>
+
+<h2><a name="M">-- M --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="miles_to_km.html">mb_to_inch_hg</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">metre_to_foot</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">miles_to_km</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">min_km_to_km_h</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">mm_to_inch</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="mode.html">mode</a></td>
+<td>Function to calculate mode of a vector</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">mpg_to_km_l</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">mpg_to_l_100_km</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">ms_to_km_h</a></td>
+<td>Functions to convert unit systems.</td></tr>
+</table>
+
+<h2><a name="N">-- N --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="miles_to_km.html">newton_metre_to_foot_pound</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">newton_metre_to_kg_force</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="normalise.html">normalise</a></td>
+<td>Function to normalise a numeric vector's range to 0-1.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">n_mile_to_km</a></td>
+<td>Functions to convert unit systems.</td></tr>
+</table>
+
+<h2><a name="O">-- O --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="object_size.html">object_size</a></td>
+<td>Convenience function to find size of R object.</td></tr>
+<tr><td style="width: 25%;"><a href="oil_ratio.html">oil_ratio</a></td>
+<td>Function to calculate oil/mixing ratios.</td></tr>
+</table>
+
+<h2><a name="P">-- P --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="parse_date_arguments.html">parse_date_arguments</a></td>
+<td>Function to parse date arguments for other functions.</td></tr>
+<tr><td style="width: 25%;"><a href="parse_excel_date.html">parse_excel_date</a></td>
+<td>Function to parse Microsoft Excel's numeric date.</td></tr>
+<tr><td style="width: 25%;"><a href="parse_unix_time.html">parse_unix_time</a></td>
+<td>Function to conveniently parse a vector of unix time to a POSIXct date vector.</td></tr>
+<tr><td style="width: 25%;"><a href="period_financial.html">period_financial</a></td>
+<td>Function to transform date into financial period (a month with an offset).</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">pound_to_kg</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="print_functions.html">print_functions</a></td>
+<td>Function to print all functions in a package.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">psi_to_bar</a></td>
+<td>Functions to convert unit systems.</td></tr>
+</table>
+
+<h2><a name="R">-- R --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="read_html_tables.html">read_html_tables</a></td>
+<td>Function to read HTML tables from an URL.</td></tr>
+<tr><td style="width: 25%;"><a href="read_json.html">read_json</a></td>
+<td>Function to read JSON files.</td></tr>
+<tr><td style="width: 25%;"><a href="read_rdata.html">read_rdata</a></td>
+<td>Function to read 'RData' files but not their name so standard assignment can be used.</td></tr>
+<tr><td style="width: 25%;"><a href="read_sql.html">read_sql</a></td>
+<td>Function to read SQL script and store statments as a vector.</td></tr>
+<tr><td style="width: 25%;"><a href="replicate_rows.html">replicate_rows</a></td>
+<td>Function to replicate rows in a data frame.</td></tr>
+<tr><td style="width: 25%;"><a href="rm_na_rows.html">rm_na_rows</a></td>
+<td>Function to remove rows in a data frame when indices are all 'NA'.</td></tr>
+<tr><td style="width: 25%;"><a href="round_date_interval.html">round_date_interval</a></td>
+<td>Function to round dates to arbitrary time intervals.</td></tr>
+<tr><td style="width: 25%;"><a href="round_numeric.html">round_numeric</a></td>
+<td>Function to round all numerical variables in a data frame.</td></tr>
+</table>
+
+<h2><a name="S">-- S --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="simple_moving_average.html">simple_moving_average</a></td>
+<td>Function to apply rolling mean to a vector.</td></tr>
+<tr><td style="width: 25%;"><a href="split_nrow.html">split_nrow</a></td>
+<td>Function to split a data frames and vectors into lists with _n_ elements based on number of rows or length.</td></tr>
+<tr><td style="width: 25%;"><a href="standardise.html">standardise</a></td>
+<td>Function to standardise all variables in a data frame.</td></tr>
+<tr><td style="width: 25%;"><a href="miles_to_km.html">stone_to_kg</a></td>
+<td>Functions to convert unit systems.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_chop</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_create_na</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_date</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_drop_xml_tags</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_extract_digits</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_nth_character</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_proper_case</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_rm_brackets_and_contents</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_rm_non_ascii</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_sentence_case</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_sql_quote</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="str_system_date.html">str_system_date</a></td>
+<td>Function to get system time with sytem calls.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_thousands_separator</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_trim_length</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_trim_many_spaces</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_underscore</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="str_proper_case.html">str_unique</a></td>
+<td>Functions to preform string operations which do not currently exist in 'stringr'.</td></tr>
+<tr><td style="width: 25%;"><a href="sys_unix_time.html">sys_unix_time</a></td>
+<td>Function to get system date as an numeric/integer value representing unix time.</td></tr>
+</table>
+
+<h2><a name="T">-- T --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="tidy_summary.html">tidy_summary</a></td>
+<td>Function to create tidy data descriptives from a data frame.</td></tr>
+<tr><td style="width: 25%;"><a href="time_dygraph.html">time_dygraph</a></td>
+<td>Function for plotting interactive time-series plots in a similar way to 'timePlot'.</td></tr>
+<tr><td style="width: 25%;"><a href="time_pad.html">time_pad</a></td>
+<td>Function to pad time-series.</td></tr>
+<tr><td style="width: 25%;"><a href="time_pad_irregular.html">time_pad_irregular</a></td>
+<td>Function to transform a irregular time-series to a continuous time-series.</td></tr>
+<tr><td style="width: 25%;"><a href="time_zone.html">time_zone</a></td>
+<td>Function to extract time-zone from a POSIXct date.</td></tr>
+<tr><td style="width: 25%;"><a href="twos_complement.html">twos_complement</a></td>
+<td>Function to convert Two's Complement integer to a "standard" integer.</td></tr>
+<tr><td style="width: 25%;"><a href="type_convert.html">type_convert</a></td>
+<td>Function to quickly apply 'type.convert' to objects.</td></tr>
+</table>
+
+<h2><a name="U">-- U --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="unix_time_to_excel_date.html">unix_time_to_excel_date</a></td>
+<td>Function to convert unix time to a Microsoft Excel date.</td></tr>
+<tr><td style="width: 25%;"><a href="unnest.html">unnest</a></td>
+<td>Functions to transform a delimited string of nested observations into it's own rows in a data frame.</td></tr>
+<tr><td style="width: 25%;"><a href="upload_to_ftp.html">upload_to_ftp</a></td>
+<td>Function to upload a files to an FTP or SFTP server.</td></tr>
+<tr><td style="width: 25%;"><a href="uuid.html">uuid</a></td>
+<td>Function to generate randomly generated universally unique identifiers (UUIDs). A UUID is usually considered 32 lowercase hexadecimal digits displayed in five groups separated by hyphens (a total of 36 characters). The number of characters in the five groups are 8-4-4-4-12. There are about 3.4 x 10 ^ 38 possible UUID combinations, therefore it is unlikely that two UUIDs will be identical.</td></tr>
+<tr><td style="width: 25%;"><a href="uuid.html">uuid_rowwise</a></td>
+<td>Function to generate randomly generated universally unique identifiers (UUIDs). A UUID is usually considered 32 lowercase hexadecimal digits displayed in five groups separated by hyphens (a total of 36 characters). The number of characters in the five groups are 8-4-4-4-12. There are about 3.4 x 10 ^ 38 possible UUID combinations, therefore it is unlikely that two UUIDs will be identical.</td></tr>
+</table>
+
+<h2><a name="W">-- W --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="weekday_sequence.html">weekday_sequence</a></td>
+<td>Function to generate a sequence of weekdays.</td></tr>
+<tr><td style="width: 25%;"><a href="week_financial.html">week_financial</a></td>
+<td>Function to calculate financial week of the year.</td></tr>
+<tr><td style="width: 25%;"><a href="week_monday.html">week_monday</a></td>
+<td>Function to get Monday-based week number of a date.</td></tr>
+<tr><td style="width: 25%;"><a href="within_range.html">within_range</a></td>
+<td>Function to test if a vector is within one, or many ranges.</td></tr>
+<tr><td style="width: 25%;"><a href="write_json.html">write_json</a></td>
+<td>Function to write a data frame to a JSON file with usage analogous to 'write.table'.</td></tr>
+<tr><td style="width: 25%;"><a href="write_xml.html">write_xml</a></td>
+<td>Function to write a data frame to an XML document.</td></tr>
+</table>
+
+<h2><a name="Y">-- Y --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="year_financial.html">year_financial</a></td>
+<td>Function to transform date into financial year.</td></tr>
+</table>
+</body></html>

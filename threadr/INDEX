@@ -1,0 +1,168 @@
+add_row_numbers         Function to add a row number variable to a data
+                        frame.
+arrange_left            Function to arrange variables to the left of a
+                        data frame.
+as_binary               Function to convert integers to binary strings.
+base_df                 Function to catch 'dplyr"s 'tbl_df' data frame
+                        class and convert to a standard/base data
+                        frame.
+clc                     Function to clear the R console.
+compress_files          Function to compress files.
+create_directory        Function to create directories if they are not
+                        present.
+data_frame_to_timeseries
+                        Function to promote a data frame to a
+                        time-series object.
+date_sequence           Function to generate a sequence of past or
+                        future dates.
+db_arrange_variables    Function to arrange variables in a data frame
+                        to match those found in a database table.
+db_clear_results        Function to clear results for a database
+                        connection.
+db_commit               Function to commit transactions for a database
+                        connection.
+db_connect              Function to create a database connection with a
+                        JSON configuration file.
+db_contents             Function to quickly return tables, variables,
+                        and values in a database.
+db_count_rows           Function to get row counts from database
+                        tables.
+db_file_size            Function to get the file size of a SQLite
+                        database.
+db_get                  Function to get/fetch data from a database with
+                        a statement.
+db_head                 Function to get first _n_ rows of a database
+                        table.
+db_insert               Function to insert a data frame into/as a
+                        database table.
+db_list_indices         Function to list indices for a database tables.
+db_list_results         Function to list results for a database
+                        connection.
+db_list_variables       Function to list all variables/columns/fields
+                        in a database table.
+db_read_table           Function to read an entire database table.
+db_send                 Function to send a statement to a database.
+db_table_names          Function to get the names of database table and
+                        produce a data frame with zero rows.
+db_use_sql              Function to load SQL script and send it to a
+                        database.
+db_vacuum               Functions to vacuum, analyse, and optimise
+                        database tables.
+db_variables            Function to return all variable names in all
+                        tables in a SQL database.
+decimal_count           Function to count the number of digits on the
+                        right of a decimal point ( sometimes called the
+                        mantissa).
+detect_averaging_period
+                        Function to determine averaging period in a
+                        date vector.
+download_file           Function to download many files to a directory.
+download_ftp_file       Function to download files from an FTP or SFTP
+                        server.
+download_to_temporary   Function to download a file to R's temporary
+                        directory.
+drop_na_columns         Function to drop columns in a data frame which
+                        only contain 'NA'.
+duplicate_rows          Function to return duplicated rows in a data
+                        frame.
+excel_read              Function to wrap 'readxl::read_excel' and then
+                        do some formating.
+excel_read_all          Function to read all sheets in a Microsoft
+                        Excel workbook.
+file_information        Function to get file information.
+file_metadata           Function to extract file metadata with
+                        'exiftool' and store it within a data frame.
+file_size               Function to get file size.
+gas_volume_to_mass      Functions to convert gas concentrations between
+                        volume- and mass-units.
+get_exchange_rates      Function get exchange rates from Oanda.
+ggplot2_colours         Function to generate a vector of colours which
+                        emulate ggplot2's colours.
+grepl_all               Function to apply 'grepl' across many variables
+                        in a data frame.
+list_files              Function to list files in a directory.
+list_files_ftp          Function to list files on an FTP or SFTP
+                        server.
+locf                    Function for carrying last observation
+                        forwards.
+miles_to_km             Functions to convert unit systems.
+mode                    Function to calculate mode of a vector
+normalise               Function to normalise a numeric vector's range
+                        to 0-1.
+object_size             Convenience function to find size of R object.
+oil_ratio               Function to calculate oil/mixing ratios.
+parse_date_arguments    Function to parse date arguments for other
+                        functions.
+parse_excel_date        Function to parse Microsoft Excel's numeric
+                        date.
+parse_unix_time         Function to conveniently parse a vector of unix
+                        time to a POSIXct date vector.
+period_financial        Function to transform date into financial
+                        period (a month with an offset).
+print_functions         Function to print all functions in a package.
+read_html_tables        Function to read HTML tables from an URL.
+read_json               Function to read JSON files.
+read_rdata              Function to read 'RData' files but not their
+                        name so standard assignment can be used.
+read_sql                Function to read SQL script and store statments
+                        as a vector.
+replicate_rows          Function to replicate rows in a data frame.
+rm_na_rows              Function to remove rows in a data frame when
+                        indices are all 'NA'.
+round_date_interval     Function to round dates to arbitrary time
+                        intervals.
+round_numeric           Function to round all numerical variables in a
+                        data frame.
+simple_moving_average   Function to apply rolling mean to a vector.
+split_nrow              Function to split a data frames and vectors
+                        into lists with _n_ elements based on number of
+                        rows or length.
+standardise             Function to standardise all variables in a data
+                        frame.
+str_proper_case         Functions to preform string operations which do
+                        not currently exist in 'stringr'.
+str_system_date         Function to get system time with sytem calls.
+sys_unix_time           Function to get system date as an
+                        numeric/integer value representing unix time.
+tidy_summary            Function to create tidy data descriptives from
+                        a data frame.
+time_dygraph            Function for plotting interactive time-series
+                        plots in a similar way to 'timePlot'.
+time_pad                Function to pad time-series.
+time_pad_irregular      Function to transform a irregular time-series
+                        to a continuous time-series.
+time_zone               Function to extract time-zone from a POSIXct
+                        date.
+twos_complement         Function to convert Two's Complement integer to
+                        a "standard" integer.
+type_convert            Function to quickly apply 'type.convert' to
+                        objects.
+unix_time_to_excel_date
+                        Function to convert unix time to a Microsoft
+                        Excel date.
+unnest                  Functions to transform a delimited string of
+                        nested observations into it's own rows in a
+                        data frame.
+upload_to_ftp           Function to upload a files to an FTP or SFTP
+                        server.
+uuid                    Function to generate randomly generated
+                        universally unique identifiers (UUIDs). A UUID
+                        is usually considered 32 lowercase hexadecimal
+                        digits displayed in five groups separated by
+                        hyphens (a total of 36 characters). The number
+                        of characters in the five groups are
+                        8-4-4-4-12. There are about 3.4 x 10 ^ 38
+                        possible UUID combinations, therefore it is
+                        unlikely that two UUIDs will be identical.
+week_financial          Function to calculate financial week of the
+                        year.
+week_monday             Function to get Monday-based week number of a
+                        date.
+weekday_sequence        Function to generate a sequence of weekdays.
+within_range            Function to test if a vector is within one, or
+                        many ranges.
+write_json              Function to write a data frame to a JSON file
+                        with usage analogous to 'write.table'.
+write_xml               Function to write a data frame to an XML
+                        document.
+year_financial          Function to transform date into financial year.
