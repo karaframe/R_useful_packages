@@ -1,0 +1,78 @@
+data_frame_to_lines     Function for converting a data frame to a
+                        SpatialLinesDataFrame.
+data_frame_to_points    Function for converting a data frame to a
+                        SpatialPointsDataFrame.
+data_frame_to_polygons
+                        Function for converting a data frame to
+                        SpatialPolygonsDataFrame.
+distance_by_haversine   Function to calculate distances between two
+                        points in metres or kilometres.
+get_sunrise             Function to calculate sunrise and sunset dates
+                        and times for a location.
+google_elevation        Function to find elevation from latitude and
+                        longitude coordinate pairs using Google Maps
+                        API.
+google_geocode          Function to find latitude and longitude pairs
+                        from an address-string using Google Maps API.
+leaflet_plot            Convenience function to quickly plot geometries
+                        on a leaflet map.
+left_join_raster        Function for extracting values from a raster
+                        object based on points contained within a data
+                        frame.
+left_join_spatial       Function for point-in-polygon tests.
+scrape_gpx              Function to read gpx files as a data frame from
+                        the GPX Logger Android phone app.
+sp_area                 Function to calculate areas of spatial polygons
+                        in metres-squared, kilometres-squared, or
+                        hectares.
+sp_bind                 Functions to bind spatial objects together.
+sp_buffer               Function to include or exclude an area of a
+                        spatial object.
+sp_centroid             Function to find the centroid of a spatial
+                        object.
+sp_clip                 Function to clip spatial objects by a
+                        rectangular envelope.
+sp_convex_hull          Function to create the smallest convex polygon
+                        that contains all input geometries.
+sp_create_ellipse       Function to create a elliptical polygon from a
+                        point, usually used for filtering.
+sp_create_envelope      Function to create a rectangular polygon
+                        envelope, usually used for filtering.
+sp_demote               Function to drop data slots in geometries.
+sp_dissolve_polygons    Function to unite polygons together and create
+                        a single spatial object, _i.e._ disolve.
+sp_distance             Function to find distances between two spatial
+                        objects in metres or kilometres.
+sp_fix                  Function to fix polygons when they have issues
+                        with validity and holes.
+sp_from_wkt             Function to parse a data frame containing WKT
+                        strings to a spatial object.
+sp_layer_info           Function to return layer information within a
+                        spatial data file.
+sp_length               Function to find a spatial object's length in
+                        metres or kilometres.
+sp_list_drivers         Function to list spatial data file drivers on a
+                        system.
+sp_list_layers          Function to list layers within a spatial data
+                        file.
+sp_projection           Function to return a spatial object's
+                        projection system.
+sp_promote              Function to add a data slot in geometries.
+sp_punch                Function to "punch" (add/insert) a hole in a
+                        polygon.
+sp_read                 Function to read spatial data files in a
+                        consistent way.
+sp_reset_feature_ids    Function to reset spatial object's feature IDs.
+sp_simplify             Function to simplify spatial objects using the
+                        Douglas-Peuker algorithm.
+sp_transform            Convenience function to transform a spatial
+                        object's projection system to WGS84 latitude
+                        and longitude.
+transform_coordinates   Function to convert coordinates within a data
+                        frame.
+wgs84_to_osgb36         Functions to convert points among different
+                        projection systems.
+write_geojson           Functions to write GeoJSON files with usage
+                        analogous to 'write.table'.
+write_gpx               Function to export geometries as a GPX file.
+write_shapefile         Function to export geometries as shapefiles.
